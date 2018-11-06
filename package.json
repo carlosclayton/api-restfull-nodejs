@@ -1,0 +1,40 @@
+{
+  "name": "node-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "lite-server"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.2",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "bookshelf": "^0.13.3",
+    "bookshelf-filteration": "^0.1.11",
+    "bookshelf-joi": "^0.1.4",
+    "bookshelf-jsonapi-params": "1.0.0",
+    "bookshelf-simplepaginate": "0.0.2",
+    "bookshelf-validate": "^2.0.3",
+    "bookshelf-validation": "0.0.4",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "joi": "^14.0.4",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.13.0",
+    "lodash": "^4.17.11",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "node-validator": "^0.1.27",
+    "serve-index": "^1.9.1",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "connect-browser-sync": "^2.1.0"
+  }
+}
