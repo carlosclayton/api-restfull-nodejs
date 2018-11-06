@@ -5,7 +5,7 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
-      user: '127.0.0.1',
+      user: 'ec2-54-83-27-162.compute-1.amazonaws.com',
       database: 'db_node',
       user:     'root',
       password: '131078'
