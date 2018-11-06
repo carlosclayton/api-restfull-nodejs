@@ -1,11 +1,11 @@
 // Update with your config settings.
 
 module.exports = {
-
   development: {
-    client: 'postgresql',
+    client: 'mysql',
     connection: {
-      user: 'ec2-54-83-27-162.compute-1.amazonaws.com',
+      host: '127.0.0.1',
+      user: 'root',
       database: 'db_node',
       user:     'root',
       password: '131078'
@@ -23,8 +23,8 @@ module.exports = {
     client: 'postgresql',
     connection: {
       database: 'db_node',
-      user:     'root',
-      password: 'password'
+      user:     'postgres',
+      password: '131078'
     },
     pool: {
       min: 2,

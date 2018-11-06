@@ -1,6 +1,6 @@
 var knexfile = require ('../knexfile'); 	
 
-var knex = require('knex')(knexfile.development);
+var knex = require('knex')(knexfile.production);
 
 var bookshelf = require('bookshelf')(knex);
 bookshelf.plugin(require('bookshelf-simplepaginate'));
