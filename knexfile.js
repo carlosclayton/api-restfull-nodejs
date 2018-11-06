@@ -5,6 +5,7 @@ module.exports = {
   development: {
     client: 'postgresql',
     connection: {
+      user: '127.0.0.1',
       database: 'db_node',
       user:     'root',
       password: '131078'
@@ -37,6 +38,7 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
+      user: 'ec2-54-83-27-162.compute-1.amazonaws.com',
       database: 'dagt57krqif9tf',
       user:     'qrplxvydlpzqnx',
       password: '8b0ffe5fa40d7e1d3529b1515f24ea59cca1effde9a559dc88e35ad60afe944b'
